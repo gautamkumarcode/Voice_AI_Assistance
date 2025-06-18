@@ -1,13 +1,13 @@
 import dynamic from "next/dynamic";
 
-type Props = {};
+
 
 const Dashboard = dynamic(() => import("../dashboard/Dashboard"), {
 	ssr: true,
 });
 
-const DashbordHOC = (props: Props) => {
-	return <Dashboard {...props} />;
+const DashbordHOC = () => {
+	return <Dashboard />;
 };
 
 export default DashbordHOC;

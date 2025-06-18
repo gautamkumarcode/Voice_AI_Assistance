@@ -1,8 +1,7 @@
 import VoiceAssistant from "@/components/custom/voiceAssistance/VoiceAssistance";
 
-type Props = {};
 
-const Dashboard = (props: Props) => {
+const Dashboard = () => {
 	return (
 		<div>
 			<VoiceAssistant />

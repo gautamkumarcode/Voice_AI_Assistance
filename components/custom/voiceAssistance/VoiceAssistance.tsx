@@ -43,8 +43,8 @@ export default function VoiceInterview() {
 						{isLoading
 							? "Starting..."
 							: isActive
-							? "End Interview"
-							: "Start Interview"}
+							? "End Conversation"
+							: "Start Conversation"}
 					</button>
 				</div>
 			</div>
