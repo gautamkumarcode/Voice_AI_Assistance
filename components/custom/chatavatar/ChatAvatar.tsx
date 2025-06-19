@@ -24,6 +24,9 @@ export default function ChatAvatars({ currentSpeaker, latestMessage }: Props) {
 							currentSpeaker === "assistant" ? "animate-pulse" : ""
 						}`}>
 						<img
+							loading="lazy"
+							width="96"
+							height="96"
 							src={`https://ui-avatars.com/api/?name=AI+Interviewer&background=3b82f6&color=fff`}
 							alt="AI"
 							className={`w-24 h-24 rounded-full border-4 transition-all duration-300 shadow-lg ${
